@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { TerrariumService } from './terrarium.service';
-import { TerrariumController } from './terrarium.controller';
+import { TerrariumsService } from './terrarium.service';
+import { TerrariumsController } from './terrarium.controller';
 
 @Module({
-  providers: [TerrariumService],
-  controllers: [TerrariumController]
+  providers: [TerrariumsService],
+  controllers: [TerrariumsController]
 })
 export class TerrariumModule {}

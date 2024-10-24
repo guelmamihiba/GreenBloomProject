@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { EssentionalOilsService } from './essentional_oils.service';
-import { EssentionalOilsController } from './essentional_oils.controller';
+import { EssentialOilsService } from './essentional_oils.service';
+import { EssentialOilsController } from './essentional_oils.controller';
 
 @Module({
-  providers: [EssentionalOilsService],
-  controllers: [EssentionalOilsController]
+  providers: [EssentialOilsService],
+  controllers: [EssentialOilsController]
 })
 export class EssentionalOilsModule {}

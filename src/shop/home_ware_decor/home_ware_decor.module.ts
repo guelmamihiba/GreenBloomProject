@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { HomeWareDecorController } from './home_ware_decor.controller';
+import { HomewareController } from './home_ware_decor.controller';
 
 @Module({
-  controllers: [HomeWareDecorController]
+  controllers: [HomewareController]
 })
 export class HomeWareDecorModule {}
